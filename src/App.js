@@ -143,6 +143,20 @@ function App() {
         <div className="text-sm md:text-base text-gray-400 mt-1">
           Illuminating the future of systems biology
         </div>
+        <motion.div 
+          className="text-xs mt-2 text-gray-500"
+          whileHover={{ color: '#FFFF00' }}
+          transition={{ duration: 0.3 }}
+        >
+          <a 
+            href="https://biodavidjm.github.io/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="hover:underline"
+          >
+            &copy; biodavidjm
+          </a>
+        </motion.div>
       </motion.div>
     </div>
   )
